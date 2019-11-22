@@ -35,7 +35,7 @@ defmodule GoogleCivic.Mixfile do
   defp deps do
     [
       {:ex_doc,      "~> 0.14", only: :dev, runtime: false},
-      {:poison,      "~> 3.0"},
+      {:poison,      "~> 4.0"},
       {:httpoison,   "~> 0.11.2"}
     ]
   end

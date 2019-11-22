@@ -36,7 +36,7 @@ defmodule GoogleCivic.Mixfile do
     [
       {:ex_doc,      "~> 0.14", only: :dev, runtime: false},
       {:poison,      "~> 3.0"},
-      {:httpoison,   "~> 0.11.2"}
+      {:httpoison,   "~> 1.6.2"}
     ]
   end
 
